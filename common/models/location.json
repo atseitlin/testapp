@@ -1,0 +1,29 @@
+{
+  "name": "Location",
+  "plural": "Locations",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "Address": {
+      "type": "string",
+      "required": true
+    },
+    "City": {
+      "type": "string",
+      "required": true
+    },
+    "State": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Zip": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

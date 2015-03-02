@@ -1,0 +1,24 @@
+{
+  "name": "Visit",
+  "plural": "Visits",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "VisitDate": {
+      "type": "date",
+      "required": true
+    },
+    "Winery": {
+      "type": "object",
+      "required": true
+    },
+    "Visitor": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

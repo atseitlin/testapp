@@ -1,0 +1,22 @@
+{
+  "name": "Winery",
+  "plural": "Wineries",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Visitor",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "Username": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "string",
+      "required": true
+    },
+    "CreateTime": {
+      "type": "date"
+    },
+    "LastUpdated": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

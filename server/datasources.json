@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysql": {
+    "host": "localhost",
+    "url": "",
+    "database": "strong1",
+    "password": "mysql",
+    "name": "mysql",
+    "connector": "mysql",
+    "user": "mysql"
+  }
+}
